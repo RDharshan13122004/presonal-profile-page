@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/2412853.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio - Dharshan</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a><i class="fa-solid fa-xmark"></i></a></li>
+                <li><a class="active" href="#Home">Home</a></li>
+                <li><a class="active" href="#About">About me</a></li>
+                <li><a class="active" href="#Service">Service</a></li>
+                <li><a class="active" href="#portfolio">Projects</a></li>
+                <li><a class="active" href="#Contact">Contact</a></li>
+                <li><a onclick="myfunction()"><i class="fa-solid fa-sun" ></i></a></li>
+            </ul>
+            <ul>
+                <li class="logo"><a href="#"><h2>Dharshan</h2></a></li>
+                <li><a class="hideOnMobile" href="#Home">Home</a></li>
+                <li><a class="hideOnMobile" href="#About">About me</a></li>
+                <li><a class="hideOnMobile" href="#Service">Service</a></li>
+                <li><a class="hideOnMobile" href="#portfolio">Projects</a></li>
+                <li><a class="hideOnMobile" href="#Contact">Contact</a></li>
+                <li><a onclick="myfunction()" class="hideOnMobile"><i class="fa-solid fa-sun" ></i></a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home" id="Home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="img/WhatsApp Image 2024-03-16 at 09.55.19_2eeea9b3.jpg" alt="my img">
+            </div>
+            <h3>Hi, Myself</h3>
+            <h1>R. Dharshan srinivas</h1>
+            <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
+            <p>“Life is what happens to us while we are making other plans.”― Allen Saunders</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/RDharshan13122004"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/r-dharshan-srinivas-26717b253/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <section class="about" id="About">
+        <div class="about-img">
+            <img src="img/Picsart_23-09-23_01-15-28-088.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer,UI/UX designer,App Developer</h3>
+            <p>I'm always like to enjoy in problem solving and love design creative webpage.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <section class="service" id="Service">
+        <h2 class="heading ">My <span>Services</span></h2>
+        <br>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Bringing your vision to life through captivating and responsive web design. We transform ideas into stunning digital experiences that engage and inspire. As a Web Developer, Let us create a unique online presence that sets you apart and connects with your audience seamlessly</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Designing</h3>
+                <p>Crafting intuitive and delightful user experiences that blend form and function.we transform complex ideas into user-friendly interfaces, ensuring every interaction is seamless,engaging and enhance your digital presence with designs that resonate and captivate</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>App Development</h3>
+                <p>Building innovative and high-performing apps tailored to your needs. Our app development team transforms your ideas into powerful, user-friendly applications that drive engagement and deliver results. Let us create a seamless mobile experience that keeps your users connected and satisfied.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/ppp1.jpg" alt="" width="430" height="430">
+                <div class="portfolio-layer">
+                    <h4>E-Commerce Web site</h4>
+                    <p>The aim of the project is to create an user-friendly e-commerce website</p>
+                    <a href="https://www.linkedin.com/posts/r-dharshan-srinivas-26717b253_phpdeveloper-databasemanagement-github-activity-7158501340871061506-0UFX?utm_source=share&utm_medium=member_desktop" class="ckjj"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/p5.jpeg" alt="" width="430" height="430">
+                <div class="portfolio-layer">
+                    <h4>Php Mailer</h4>
+                    <p>The project is based on PHPMailer which does the job of mailing.</p>
+                    <a href="https://www.linkedin.com/posts/r-dharshan-srinivas-26717b253_thrilled-to-share-a-project-ive-been-pouring-activity-7163916505296949249-U7H5?utm_source=share&utm_medium=member_desktop" class="ckjj"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/ppp3.jpeg" alt="" width="430" height="430">
+                <div class="portfolio-layer">
+                    <h4>Account Recovering using OTP</h4>
+                    <p>The project is used to recover an account by using OTP verification technique in php</p>
+                    <a href="https://www.linkedin.com/posts/r-dharshan-srinivas-26717b253_hey-all-yes-ive-come-up-with-another-activity-7173884308456165376-XiJn?utm_source=share&utm_medium=member_desktop" class="ckjj"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/main-qimg-3479c1d83525e428ced3c998b42d0f7d-lq.jpeg" alt="" width="430" height="430">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>“Life is what happens to us while we are making other plans.”― Allen Saunders</p>
+                    <a href="#" class="ckjj"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/download.jpeg" alt="" width="430" height="430">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>“Life is what happens to us while we are making other plans.”― Allen Saunders</p>
+                    <a href="#" class="ckjj"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#" method="post">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Dharshan | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#Home"><i class="fa-sharp fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="jav.js"></script>
+</body>
+</html>
