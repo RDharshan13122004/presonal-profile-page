@@ -26,7 +26,7 @@ ScrollReveal().reveal('.home-contact p, .about-content', {origin:'right'})
 /*==================================== typed text =================*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Backend Developer','Full stack Developer', 'Web Designer', 'App Developer'],
+    strings: ['Backend Developer','Full stack Developer', 'Web Designer'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
